@@ -33,7 +33,7 @@ count_the _article(mybook)
 
 def sorted_words(mybook):
   output=[]
-  list2=[]
+  
   for line in mybook:
     line=line.strip()
     line=line.split()
@@ -67,6 +67,7 @@ def starts_with_vow(mybook)
         line=line.split()
           if word[0] in tup:
              li.append(word)
+    print(li)
 starts_with_vow(mybook)
 
 #vowels word  
